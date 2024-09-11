@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Construction Web</title>
+
+    <!-- CDN JS web link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css">  
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- css files link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+
+
+<body>
+
+    <!--     header starts  from here   -->
+
+    <header>
+
+        <a href="#">We<span>Build</span></a>
+
+        <nav>
+
+            <a href="#home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Pricing">Pricing</a>
+            <a href="#Contact">Contacts</a>
+            <a href="#Blogs">Blogs</a>
+
+        </nav>
+
+        <div class="icons">
+
+            <div id="info-btn" class="fas fa-info-circle"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+
+
+        </div>
+
+        <!-- code for searchBar -->
+        <form action="" class="search-box">
+
+            <input type="search" class="search-input" id="search-input" placeholder="Search here..." list = "sections">
+            <label for="search-input">
+                <div id="search-btn" class="fas fa-search searchButton"></div>
+            </label>
+            
+            <datalist id = "sections">
+                
+                <option value="home"></option>
+                <option value="About"></option>
+                <option value="Services"></option>
+                <option value="Projects"></option>
+                <option value="Pricing"></option>
+                <option value="Contact"></option>
+                <option value="Blogs"></option>
+                
+            </datalist>
+
+        </form>
+
+        <!-- code for Login-form -->
+        <form class="login-input">
+
+            <h3>LOGIN FORM</h3>
+
+            <input type="email" placeholder="Enter your email" id="email-input">
+             
+                <input type="password" placeholder="Enter your password" id="password-input">
+                <label for = "password-input"><i class = "fas fa-eye" id = "password-eye"></i></label>
+            
+            <div class="check-remem">
+
+                <div class="check-box">
+                    <input type="checkbox" id="check-input">
+                    <label for="check-input">remember me</label>
+
+                </div>
+
+                <p>Forgot Password?</p>
+
+            </div>
+
+            <button class="login-btn">Login Now</button>
+
+            <p class="create-new-account-para">Don't have an account <span>Create new</span></p>
+
+        </form>
+
+        <!-- code for login-form ends -->
+
+    </header>
+
+    <!-- header ends  here-->
+
+    <main>
+
+        <!-- Code For Home Section Starts -->
+
+        <section id="home">
+
+            <div class="images-container">
+
+                <div class="image-con active-img-div">
+
+                    <img src="home-slide-1.jpg" alt="home-page-image-1">
+
+                    <h1>We Provide <br> Best Service</h1>
+                    <p>We deliver exceptional construction services. Our commitment to quality ensures that every project exceeds expectations and brings your vision to life</p>
+
+                    <button class="img-con-btn">Get Started</button>
+
+                </div>
+
+                <div class="image-con">
+
+                    <img src="home-slide-2.jpg" alt="home-page-image-2" loading="lazy">
+
+                    <h1>Making Dream<br> Come To Life</h1>
+                    <p>We deliver exceptional construction services. Our commitment to quality ensures that every project exceeds expectations and brings your vision to life</p>
+
+                    <button class="img-con-btn">Get Started</button>
+
+                </div>
+
+                <div class="image-con">
+
+                    <img src="home-slide-3.jpg" alt="home-page-image-3" loading="lazy">
+
+                    <h1>From Concept<br>To Creation</h1>
+                    <p>We deliver exceptional construction services. Our commitment to quality ensures that every project exceeds expectations and brings your vision to life</p>
+
+                    <button class="img-con-btn">Get Started</button>
+
+                </div>
+
+            </div>
+
+            <button class="pre">&#10094</button>
+            <button class="next">&#10095</button>
+
+        </section>
+
+        <!-- Code for home section ends -->
+
+        <!-- Code for About Section Starts -->
+
+        <section id="About">
+
+            <span class="h2-span"></span>
+            <h2>About Us</h2>
+
+            <div class="about-con">
+
+                <div class="about-vid">
+
+                    <video autoplay muted loop>
+                        <source src="about-vid.mp4" type="video/mp4">
+                        Your Browser Does Not Support This Video Tag
+                    </video>
+
+                </div>
+
+                <div class="about-content">
+                    <h3>
+                        We Will Provide You The Best <br> Work Which You Dream For!
+                    </h3>
+
+                    <p>
+                        we deliver top-quality construction services with precision and reliability. Our commitment to excellence ensures every project exceeds expectations.
+                    </p>
+
+                    <button class="about-con-btn">
+                        Read More
+                    </button>
+                </div>
+            </div>
+
+            <div class="track-record">
+
+                <div class="sub-record">
+                    <p>10+</p>
+                    <p>Years of experience</p>
+                </div>
+
+                <div class="sub-record">
+                    <p>1500+</p>
+                    <p>Projects completed</p>
+                </div>
+
+                <div class="sub-record">
+                    <p>790+</p>
+                    <p>Satisfied Clients</p>
+                </div>
+
+                <div class="sub-record">
+                    <p>450+</p>
+                    <p>Active Worker</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Code For About Section Ends ->
+       
+       <!-- Code For Services Section Starts -->
+
+        <section id="Services">
+
+            <span class="h2-span"></span>
+            <h2>Our Services</h2>
+
+            <div class="services-con">
+
+                <!-- remaining html is generated by js -->
+
+            </div>
+
+        </section>
+
+        <!--Code For Services Section Ends -->
+
+        <!--Code For Project Section Starts -->
+
+        <section id="Projects">
+
+            <span class="h2-span"></span>
+            <h2>Our Projects </h2>
+
+            <div class="pro-con">
+
+                <!-- remaining html is generated by js -->
+
+            </div>
+
+        </section>
+
+        <!--Code For Project Section Ends -->
+
+        <!--Code For Clients Section Starts -->
+
+        <section id="clients">
+
+            <span class="h2-span"></span>
+            <h2>Clients Reviews</h2>
+
+            <div class="client-con">
+
+                <!-- remaining html is generated by js -->
+
+            </div>
+
+        </section>
+
+        <!--Code For Clients Section Ends -->
+
+        <!--Code For Pricing Section Starts -->
+
+        <section id="Pricing">
+
+            <span class="h2-span"></span>
+            <h2>Our Pricing</h2>
+
+            <div class="pricing-con">
+
+                <!-- remaining html is generated by js -->
+
+            </div>
+
+        </section>
+
+        <!--Code For Pricing Section Ends -->
+
+        <!--Code For Contacts Section Starts -->
+
+        <section id="Contact">
+
+            <span class="h2-span"></span>
+            <h2>Contact Us</h2>
+
+            <div class="contact-con">
+
+                <div class="sub-contact-con"><iframe class="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.8097460499525!2d74.26565667481054!3d31.446904250769435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919017432b1835b%3A0xe396992a5b05891c!2sUniversity%20of%20Central%20Punjab!5e0!3m2!1sen!2s!4v1725725250370!5m2!1sen!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="sub-contact-con">
+
+                    <form action="" class="contact-form">
+
+                        <h3>Get In Touch</h3>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required>
+                        <input type="text" placeholder="phone" required>
+
+                        <textarea name="" id="" cols="30" rows="6" placeholder="message"></textarea>
+
+                        <button class="contact-form-btn">Send Message</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--Code For Contacts Section Ends -->
+
+        <!--Code For Blogs Section Starts -->
+
+        <section id="Blogs">
+
+            <span class="h2-span"></span>
+            <h2>Our Blogs</h2>
+            <div class="blog-con">
+
+                <!-- remaining html is generated by js -->
+
+            </div>
+
+        </section>
+
+        <!--Code For Blogs Section Ends -->
+
+    </main>
+
+    <!--Code For The Footer Section Starts -->
+
+    <footer>
+
+        <div class="footer-img-con">
+            <div class="footer-sub-img-con"><img src="client-logo-1.png" alt="Client-logo-image"></div>
+            <div class="footer-sub-img-con"><img src="client-logo-2.png" alt="Client-logo-image"></div>
+            <div class="footer-sub-img-con"><img src="client-logo-3.png" alt="Client-logo-image"></div>
+            <div class="footer-sub-img-con"><img src="client-logo-4.png" alt="Client-logo-image"></div>
+            <div class="footer-sub-img-con"><img src="client-logo-5.png" alt="Client-logo-image"></div>
+            <!--    <div class = "footer-sub-img-con"><img src="client-logo-6.png" alt="Client-logo-image"></div> -->
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#home"><button>Home</button></a>
+            <a href="#About"><button>About</button></a>
+            <a href="#Services"><button>Services</button></a>
+            <a href="#Projects"><button>Projects</button></a>
+            <a href="#Pricing"><button>Pricing</button></a>
+            <a href="#Contact"><button>Contacts</button></a>
+            <a href="#Blogs"><button>Blogs</button></a>
+
+        </div>
+
+        <!--Code For The CopyRights Parts -->
+
+        <div class="copyrights">
+
+            <div class="line1">
+                <p>Created By <span>Basit Ali</span> | ALL Right Reserved</p>
+            </div>
+            <div class="line1">
+                <p>Original Template</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!--Code For The Footer Section Ends -->
+
+   <script src = "https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
+   
+    <script src="main.js"></script>
+    </body>
+
+<!-- here ends the code of the whole web page-->
+
+</html>

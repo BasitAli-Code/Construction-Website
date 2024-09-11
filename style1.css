@@ -1,0 +1,653 @@
+ 
+/*     Code For Services Section Starts Here    */
+
+#Services {
+    width: 100vw;
+    height: 110vh;
+    background-color: var(--light-bg);
+    position: relative;
+}
+
+#Services h2 {
+    font-size: 2rem;
+    position: absolute;
+    top: 2.875rem;
+    left: 6.875rem;
+    font-weight: 600;
+}
+
+.services-con {
+    position: absolute;
+    top: 17%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-right: 6%;
+    padding-left: 10.5%;
+    padding-bottom: 10%;
+}
+
+.sub-ser-con {
+    width: 23%;
+    margin-right: 0.9375rem;
+    height: 46%;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+
+.sub-ser-con img {
+    height: 25%;
+    margin-top: 1.875rem;
+    width: 25%;
+    transition: 0.4s ease;
+}
+
+.sub-ser-con h3 {
+    margin-top: 1.25rem;
+    font-weight: 500;
+    font-size: 1.0625rem;
+    letter-spacing: 0.03125rem;
+}
+
+.sub-ser-con img:hover {
+    transform: translateY(-0.625rem);
+}
+
+.sub-ser-con p {
+    margin-top: 1rem;
+    color: var(--light-color);
+    font-size: 0.875rem;
+    line-height: 1.5625rem;
+    width: 80%;
+}
+
+/*     Code For Services Section Ends Here    */
+
+
+/*     Code For Project Section Starts Here    */
+#Projects {
+    height: 68.75rem;
+    width: 100vw;
+    background-color: var(--black);
+    color: var(--white);
+    padding-left: 11%;
+    padding-right: 8%;
+    position: relative;
+}
+
+#Projects h2 {
+    font-size: 2rem;
+    position: absolute;
+    font-weight: 600;
+    top: 2.8125rem;
+    left: 7.0625rem;
+}
+
+#Projects .h2-span {
+    height: 2.75rem;
+    padding: 1.25rem 0px;
+    width: 0.625rem;
+    color: var(--yellow);
+    position: absolute;
+    top: 3.125rem;
+    background-color: var(--yellow);
+}
+
+.pro-con {
+    position: absolute;
+    top: 7.8125rem;
+    height: 59.375rem;
+    width: 81.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sub-pro-con {
+    width: 32%;
+    height: 48%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-pro-con img{
+    height: 83%;
+    width: 100%;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.sub-pro-con img:hover {
+    transform: scale(1.03);
+}
+
+.pro-con-content {
+    height: 17%;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+}
+
+.pro-con-content p {
+    font-size: 1.0625rem;
+    font-weight: 600;
+}
+
+.pro-con-content p span {
+    font-size: 0.875rem;
+    color: var(--light-color);
+    font-weight: 400;
+}
+
+.pro-con-content .fas {
+    background-color: var(--yellow);
+    font-size: 2.625rem;
+    color: var(--white);
+    padding: 1.125rem;
+    cursor: pointer;
+}
+
+/*     Code For Project Section ends Here    */
+
+/*     Code For Clients Review Section ends Here    */
+
+#clients {
+    height: 34.375rem;
+    width: 100vw;
+    background-color: var(--white);
+    position: relative;
+    padding-left: 11%;
+    padding-right: 8.5%;
+}
+
+#client span {
+    height: 2.375rem;
+}
+
+#clients h2 {
+    position: absolute;
+    top: 2.9375rem;
+    left: 7.1875rem;
+}
+
+.client-con {
+    position: absolute;
+    top: 7.5rem;
+    height: 23.75rem;
+    width: 81.5vw;
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+}
+
+.client-sub-con {
+    flex: none;
+    height: 100%;
+    width: 32%;
+    margin-right: 1.25rem;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.review {
+    width: 100%;
+    padding: 5%;
+    height: 70%;
+    background-color: var(--light-bg);
+    position: relative;
+}
+
+.review::before {
+    content: "";
+    position: absolute;
+    bottom: -0.625rem;
+    left: 1.3rem;
+    height: 1.25rem;
+    background-color: var(--light-bg);
+    width: 1.25rem;
+    transform: rotate(45deg);
+}
+
+.review p {
+    font-size: 0.875rem;
+    color: var(--light-color);
+    letter-spacing: 0.03125rem;
+    line-height: 1.6875rem;
+}
+
+.pro-str {
+    width: 100%;
+    height: 30%;
+    padding-top: 8%;
+    display: flex;
+}
+
+.pro-str img {
+    height: 4.375rem;
+    margin-right: 0.9375rem;
+}
+
+.pro-sub-str p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0.625rem;
+}
+
+.pro-sub-str i {
+    color: var(--yellow);
+}
+
+.client-con::-webkit-scrollbar {
+    height: 0.75rem;
+}
+
+.client-con::-webkit-scrollbar-thumb {
+    background-color: var(--yellow);
+    border-radius: 0.625rem;
+}
+
+.client-con::-webkit-scrollbar-track {
+    background-color: var(--light-bg);
+    border-radius: 0.625rem;
+}
+
+.client-con::-webkit-scrollbar {
+    cursor: pointer;
+}
+
+/*     Code For Clients Review Section ends Here    */
+
+/*     Code For Pricing Section Starts Here    */
+#Pricing {
+    height: 45.625rem;
+    width: 100vw;
+    background-color: var(--light-bg);
+    color: var(--white);
+    padding-left: 11%;
+    padding-right: 8%;
+    position: relative;
+    color: var(--black);
+}
+
+#Pricing h2 {
+    font-size: 2rem;
+    position: absolute;
+    font-weight: 600;
+    top: 3rem;
+    left: 7.125rem;
+}
+
+#Pricing .h2-span {
+    height: 2.8125rem;
+}
+
+.pricing-con {
+    position: absolute;
+    top: 7.8125rem;
+    width: 81.5vw;
+    height: 34.375rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-pri-con {
+    width: 32%;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0%;
+}
+
+.sub-pri-con i {
+    font-size: 1.75rem;
+    background-color: var(--yellow);
+    padding: 1.25rem;
+    border-radius: 50%;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.sub-pri-con i:hover {
+    transform: translateY(-0.625rem);
+}
+
+.plan-para {
+    font-size: 1.25rem;
+}
+
+.sub-pri-con p {
+    color: var(--light-color);
+    font-size: 0.8125rem;
+}
+
+.sub-pri-con h3 {
+    font-size: 2.8125rem;
+    font-weight: 500;
+}
+
+.sub-pri-con sub {
+    font-weight: 300;
+    font-size: 1.125rem;
+}
+
+.sub-pri-con button {
+    font-size: 1.125rem;
+    letter-spacing: 0.03125rem;
+    padding: 0.625rem 1.25rem;
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.sub-pri-con button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+/*     Code For Pricing Section Ends Here    */
+
+/*     Code For Contacts Section Starts Here    */
+#Contact {
+    height: 43.75rem;
+    width: 100%;
+    background-color: var(--black);
+    position: relative;
+    padding-left: 11%;
+    padding-right: 6.5%;
+}
+
+#Contact span {
+    height: 2.9375rem;
+}
+
+#Contact h2 {
+    position: absolute;
+    color: var(--white);
+    top: 3.25rem;
+    left: 7.1875rem;
+}
+
+.contact-con {
+    width: 81.5vw;
+    background-color: var(--white);
+    height: 32.5rem;
+    position: absolute;
+    top: 8.125rem;
+    display: flex;
+    background-color: var(--black);
+    justify-content: space-between;
+}
+
+.sub-contact-con {
+    height: 100%;
+    width: 49%;
+}
+
+.google-map {
+    height: 100%;
+    width: 100%;
+}
+
+.contact-form {
+    height: 100%;
+    width: 100%;
+    background-color: var(--white);
+    display: inline-flex;
+    flex-direction: column;
+    padding: 4% 4%;
+}
+
+.contact-form h3 {
+    font-size: 1.625rem;
+    font-weight: 600;
+    letter-spacing: 0.03125rem;
+    margin-bottom: 0.9375rem;
+}
+
+.contact-form input {
+    width: 100%;
+    padding: 1rem 0px;
+    margin-bottom: 0.9375rem;
+    outline: none;
+    font-size: 1rem;
+    letter-spacing: 0.046875rem;
+    color: var(--light-color);
+    border-bottom: var(--border);
+    transition: 0.3s ease;
+}
+
+.contact-form input:focus {
+    border-color: var(--yellow);
+}
+
+.contact-form textarea {
+    font-size: 1rem;
+    margin-top: 0.625rem;
+    letter-spacing: 0.046875rem;
+    color: var(--light-color);
+    border-bottom: var(--border);
+}
+
+.contact-form button {
+    font-size: 1.0625rem;
+    letter-spacing: 0.03125rem;
+    margin-top: 1.25rem;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.625rem 0.9375rem;
+    width: 12.5rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+/*     Code For Contacts Section Ends Here    */
+
+/*     Code For Blogs Section Starts Here    */
+#Blogs {
+    height: 40.625rem;
+    width: 100%;
+    background-color: var(--light-bg);
+    position: relative;
+    padding-left: 9.5%;
+    padding-right: 6.5%;
+}
+
+#Blogs span {
+    height: 2.9375rem;
+}
+
+#Blogs h2 {
+    position: absolute;
+    top: 3.25rem;
+    left: 7.1875rem;
+}
+
+.blog-con {
+    position: absolute;
+    height: 31.25rem;
+    top: 7.8125rem;
+    width: 81.5vw;
+    display: flex;
+    align-items: center;
+    padding-left: 1.25rem;
+    overflow-x: scroll;
+}
+
+.blog-sub-con {
+    flex: none;
+    width: 32%;
+    height: 100%;
+    margin-right: 1.25rem;
+    text-align: center;
+}
+
+.blog-img-con {
+    height: 15.625rem;
+    width: 100%;
+}
+
+.blog-img-con img {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.blog-img-con img:hover {
+    transform: scale(1.05);
+}
+
+.sub-con-content {
+    height: 12.5rem;
+    width: 100%;
+    padding-left: 1.5625rem;
+    padding-right: 1.5625rem;
+    padding-top: 1.25rem;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+}
+
+.sub-con-content h3 {
+    font-size: 1.375rem;
+    font-weight: 600;
+    margin-bottom: 0.9375rem;
+}
+
+.sub-con-content p {
+    font-size: 0.875rem;
+    line-height: 1.4375rem;
+    margin-bottom: 1.125rem;
+    color: var(--light-color);
+}
+
+.sub-con-content button {
+    font-size: 1.125rem;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.625rem 1.25rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.sub-con-content button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.blog-con::-webkit-scrollbar {
+    height: 0.75rem;
+}
+
+.blog-con::-webkit-scrollbar-thumb {
+    background-color: var(--yellow);
+    border-radius: 0.625rem;
+}
+
+.blog-con::-webkit-scrollbar-track {
+    background-color: var(--light-bg);
+    border-radius: 0.625rem;
+}
+
+.blog-con::-webkit-scrollbar {
+    cursor: pointer;
+}
+
+/*     Code For Blogs Section Ends Here    */
+
+/*     Code For Footer Starts Here    */
+
+footer {
+
+    height: 29.375rem;
+    width: 100vw;
+    background-color: var(--white);
+    text-align: center;
+    padding-left: 11%;
+    padding-right: 7.5%;
+    padding-top: 3.125rem;
+
+}
+
+.footer-img-con {
+
+    width: 81vw;
+    height: 12.5rem;
+    display: flex;
+    padding: 0% 6%;
+    justify-content: space-between;
+}
+
+.footer-sub-img-con {
+
+    height: 50%;
+
+}
+
+.footer-sub-img-con img {
+
+    height: 100%;
+
+}
+
+.footer-links {
+    height: 5rem;
+    width: 81vw;
+    display: flex;
+    padding: 0% 10%;
+    justify-content: space-between;
+}
+
+.footer-links button {
+    font-size: 1.0625rem;
+    letter-spacing: 0.03125rem;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.625rem 1.25rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.footer-links button:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.copyrights {
+
+    margin: 0px;
+
+}
+
+.line1 {
+    cursor: pointer;
+    font-size: 1.25rem;
+    letter-spacing: 0.015625rem;
+    margin-bottom: 1.25rem;
+}
+
+.line1 span {
+    color: var(--yellow);
+    font-size: 1.3125rem;
+}
+
+/*     Code For Footer Ends Here    */
